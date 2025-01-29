@@ -6,20 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    android:orientation="vertical"
-    tools:context=".MainActivity"
     android:gravity="center"
-    >
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/player"
-    android:textSize="40sp"
-    android:textStyle="bold"
-    android:textAlignment="center"
-    android:textColor="@color/white"
-    android:layout_marginBottom="20dp"
-    />
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/player"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
     <LinearLayout
         style="?android:attr/buttonBarStyle"
         android:layout_width="wrap_content"
@@ -27,34 +28,37 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn1"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btn2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btn3"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -64,34 +68,37 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn4"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btn5"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btn6"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -101,33 +108,36 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn7"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btn8"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btn9"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:textStyle="bold"
+            android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="40sp"
-            android:background="@color/white" />
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>
